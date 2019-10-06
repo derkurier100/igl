@@ -1,0 +1,25 @@
+/*  =========================================================
+Zentrales Stylesheet - wird im HEAD der Webseiten aufgerufen 
+Datei: zentrale.css
+Datum: 2007-10-27
+Autor: Peter Müller 
+========================================================== */
+
+/* Reset, Restaurierung und grundlegende Formatierung */ 
+@import url(fundament.css); 
+
+/* Formatierung der Navigation */
+@import url(navi_dropdown.css);
+
+/* Formatierung für den Bildschirm */ 
+@import url(bildschirm.css); 
+
+/* Formatierung für den Drucker */
+@import url(druckversion.css);
+
+/* Formatierung für den Drucker */
+@import url(menustyle.css);
+
+/* ======================================
+   E N D E zentrale.css
+   ====================================== */

@@ -1,0 +1,62 @@
+.menubody {
+  font-family: Myriad, "Myriad Pro", Verdana, Arial, sans-serif;
+  font-size: 1.1em;
+  color: #333333;
+}
+
+
+
+p {
+  line-height: 1.5em;
+}
+
+ul#menu, ul#menu ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  background-color:#00FF00;
+  width: 952px;
+}
+
+ul#menu a {
+  display: block;
+  text-decoration: none;	
+}
+
+ul#menu li {
+  margin-top: 1px;
+}
+
+ul#menu li a {
+  background: none;
+  border-bottom: 1px solid #EEEEEE;
+  color: #333333;	
+  padding: 0.5em;
+}
+
+ul#menu li a:hover {
+  background: #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  color:#000000;
+}
+
+ul#menu li ul li a {
+  background: #DDDDDD;
+  border-bottom: 1px solid #EEEEEE;
+  color: #333333;
+  padding-left: 20px;
+  font-size: 1.0em;
+}
+
+ul#menu li ul li a:hover {
+  background: #CCCCCC;
+  border-bottom: 1px solid #EEEEEE;
+  border-left: 5px #676767 solid;
+  padding-left: 15px;
+}
+
+.code { border-bottom: 1px solid #EEEEEE; list-style-type: decimal-leading-zero; padding: 5px; margin: 0; }
+.code code { display: block; padding: 3px; margin-bottom: 0; }
+.code li { background: #ddd; border-bottom: 1px solid #EEEEEE; margin: 0 0 2px 2.2em; }
+.indent1 { padding-left: 1em; }
+.indent2 { padding-left: 2em; }

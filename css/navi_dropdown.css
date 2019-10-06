@@ -1,0 +1,153 @@
+/*  =========================================================
+Stylesheet für die horizontale Navigation mit Dropdown-Menü und Suchfeld 
+Datei:  navi_dropdown.css 
+Datum: 2007-10-27
+Autor: Peter Müller 
+========================================================== */
+
+@media screen { 
+
+	
+#info {height:400px;}
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/basic_dd.html
+Copyright (c) 2005-2009 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+/* remove the bullets, padding and margins from the lists */
+
+.menu {
+margin-left:11px;
+margin-bottom:4px;
+width:952px;
+background-color:#2f4050;
+height:32px;
+}
+
+.menu ul{
+list-style-type:none;
+padding:0;
+margin:0;
+}
+/* make the top level links horizontal and position relative so that we can position the sub level */
+.menu li{
+background:#2f4050;
+list-style-type: none;
+float:left;
+position:relative;
+z-index:100;
+}
+
+/* use the table to position the dropdown list */
+.menu table{
+font-family:verdana, sans-serif;
+color:#2f4050;
+text-transform:uppercase;
+background:#efede0;
+list-style-type: none;
+position:absolute;
+border-collapse:collapse;
+z-index:80;
+left:-1px;
+top:25px;
+}
+
+.submenu li {
+background:#d5dbe5;
+font-family:verdana, sans-serif;
+font-size:9px;
+color:#2f4050;
+border-right: 1px solid #ffffff;
+border-left: 1px solid #ffffff;
+
+}
+
+.submenu :hover{
+list-style-type: none;
+color:#2f4050;
+background:#FFFFFF;
+}
+
+.mainmenu :hover{
+list-style-type: none;
+color:#2f4050;
+background:#d5dbe5;
+}
+
+/* style all the links */
+.mainmenu a, .mainmenu :visited {
+list-style-type: none;
+display:block;
+font-size:13px;
+/*width:210px;*/
+padding: 0;
+padding-top:8px;
+padding-bottom:8px;
+padding-left:12px;
+padding-right:12px;
+color:#FFFFFF;
+background:;
+text-decoration:none;
+margin-right:0px;
+text-align:center;
+font-family:verdana, sans-serif;
+
+}
+
+.submenu a, .subnmenu :visited {
+list-style-type: none;
+display:block;
+font-size:13px;
+width:158px;
+padding: 0;
+padding-top:8px;
+padding-bottom:8px;
+padding-left:12px;
+color:#2f4050;
+background:;
+text-decoration:none;
+margin-right:1px;
+text-align:left;
+font-family:verdana, sans-serif;
+
+}
+/* style the links hover 
+.menu :hover{
+list-style-type: none;
+color:#444;
+background:#e9592c;
+}*/
+
+/* hide the sub level links */
+.menu ul ul {
+list-style-type: none;
+visibility:hidden;
+position:absolute;
+left:-11px;
+width:158px;
+height:0;
+}
+/* make the sub level visible on hover list or link */
+.menu ul li:hover ul,
+.menu ul a:hover ul{
+visibility:visible;
+}
+
+
+} /* Ende @media - nicht löschen! */
+
+
+
+
+
+
+
+
+
+
+
+
