@@ -550,9 +550,8 @@ font-size: 20px;
 #direkteinstieg img {
 	width: 100%;
 }
-.languagechange{
-	float:left;
-	font-size:12px;
+.languagechange{	
+	font-size:10px;
 }
 
 } /* Ende @media - nicht löschen! */ 
