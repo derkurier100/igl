@@ -552,6 +552,7 @@ font-size: 20px;
 }
 .languagechange{
 	float:left;
+	font-size:12px;
 }
 
 } /* Ende @media - nicht löschen! */ 
