@@ -230,9 +230,10 @@ a.button:active span {
 	margin-top:12px;
 	padding-left:11px;
 	padding-right:11px;
-	width: 952px;
+	width: 974px;
 	height: 94px;
 	background-color:#FFFF00;
+	
 }
 
 #logobereich_index {
@@ -240,8 +241,9 @@ a.button:active span {
 	background-image:url(../images/igllogo_header_frei.png);
 	margin-left: 20px;
 	background-repeat: no-repeat;
-	width: 974px;
+	width: 200px;
 	height: 117px;
+	margin-top: 50px;
 	
 }
 
@@ -556,4 +558,9 @@ font-size: 20px;
 
 } /* Ende @media - nicht löschen! */ 
 
-
+#headerslogan h1 {
+	position:relative;
+	float: right;
+	margin-right: 10px;
+	margin-bottom: 50px;
+}

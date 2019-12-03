@@ -72,7 +72,7 @@ color:#2f4050;
 background:#FFFFFF;
 }
 
-.mainmenu :hover, .mainmenu a.active{
+.mainmenu :hover, .mainmenu :visited {
 list-style-type: none;
 color:#2f4050;
 background:#d5dbe5;
