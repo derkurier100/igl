@@ -1,8 +1,8 @@
 /*  =========================================================
-Stylesheet für die horizontale Navigation mit Dropdown-Menü und Suchfeld 
+Stylesheet fÃ¼r die horizontale Navigation mit Dropdown-MenÃ¼ und Suchfeld 
 Datei:  navi_dropdown.css 
 Datum: 2007-10-27
-Autor: Peter Müller 
+Autor: Peter MÃ¼ller 
 ========================================================== */
 
 @media screen { 
@@ -72,7 +72,7 @@ color:#2f4050;
 background:#FFFFFF;
 }
 
-.mainmenu :hover{
+.mainmenu :hover, .mainmenu a.active{
 list-style-type: none;
 color:#2f4050;
 background:#d5dbe5;
@@ -138,7 +138,7 @@ visibility:visible;
 }
 
 
-} /* Ende @media - nicht löschen! */
+} /* Ende @media - nicht lÃ¶schen! */
 
 
 
